@@ -55,10 +55,12 @@ body{
         }
         to{
             background: darkblue;
+            color: white;
+            font-size: 40px;
         }
     }
     body{
         animation: elmer 1s;
     }
-
+  
 }

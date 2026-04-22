@@ -47,3 +47,18 @@ body{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 700px){
+    @keyframes elmer{
+        from {
+            background: lightblue;
+        }
+        to{
+            background: darkblue;
+        }
+    }
+    body{
+        animation: elmer 1s;
+    }
+
+}

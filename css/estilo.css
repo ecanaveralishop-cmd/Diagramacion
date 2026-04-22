@@ -1,0 +1,49 @@
+
+@keyframes elmer{
+    0%{left: 0}
+    30%{left: 50px}
+    40%{left: 200px}
+    50%{left: 500px}
+    100%{left: 0}
+}
+
+h1{
+    animation: elmer 2 alternate 3s;
+    color: blueviolet;
+    position: relative;
+}
+
+body{
+    background: #2b97df;
+}
+.contenedor{
+    align-items: center;
+    border: solid;
+    display: flex;
+    height: 450px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.contenedor div{
+    border: solid;
+    height: 200px;
+    width: 200px;
+}
+.parte1{
+    background: orange;
+}
+.parte2{
+    background: green;
+}
+.parte3{
+    background: blue;
+}
+
+@media print{
+    .parte1,.parte3,button{
+        display: none;
+    }
+    .contenedor div{
+        width: 100%;
+    }
+}

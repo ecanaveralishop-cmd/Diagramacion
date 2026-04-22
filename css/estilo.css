@@ -50,13 +50,17 @@ body{
 
 @media screen and (max-width: 700px){
     @keyframes elmer{
-        from {
+        0% {
             background: lightblue;
         }
-        to{
+        50%{
             background: darkblue;
             color: white;
-            font-size: 40px;
+
+        }
+        100%{
+            background: lightblue;
+            color: #000;
         }
     }
     body{
